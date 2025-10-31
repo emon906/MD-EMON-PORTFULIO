@@ -1,0 +1,65 @@
+<div class="navbar">
+  <div class="navbar-start">
+    <div class="dropdown">
+      <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="h-5 w-5"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor">
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M4 6h16M4 12h8m-8 6h16" />
+        </svg>
+      </div>
+      <ul
+        tabindex="0"
+        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+        <li><a class="font-Open-Sans text-base font-bold ">Home</a></li>
+      <li><a class="font-Open-Sans text-base font-bold ">Details</a></li>
+      <li><a class="font-Open-Sans text-base font-bold ">Experience</a></li>
+      <li><a class="font-Open-Sans text-base font-bold ">Projects</a></li>
+      <li><a class="font-Open-Sans text-base font-bold ">Contact</a></li>
+      </ul>
+    </div>
+    <a class="btn btn-ghost text-xl font-bold ">
+      <img class="w-10 rounded-lg" src="img/EMON LOGO.png" alt="EMON LOGO">
+      EMON
+    </a>
+  </div>
+  <div class="navbar-center hidden lg:flex">
+    <ul class="menu menu-horizontal px-1">
+      <li><a class="font-Open-Sans text-base font-bold ">Home</a></li>
+      <li><a class="font-Open-Sans text-base font-bold ">Details</a></li>
+      <li><a class="font-Open-Sans text-base font-bold ">Experience</a></li>
+      <li><a class="font-Open-Sans text-base font-bold ">Projects</a></li>
+      <li><a class="font-Open-Sans text-base font-bold ">Contact</a></li>
+    </ul>
+  </div>
+  <div class="navbar-end flex items-center gap-3">
+    <label class="swap swap-rotate">
+  <!-- toggle input -->
+  <input type="checkbox" class="theme-controller" value="dark" />
+
+  <!-- 🌞 Sun icon (Light mode) -->
+  <svg xmlns="http://www.w3.org/2000/svg"
+    class="swap-on w-6 h-6 text-white transition-all duration-300"
+    fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+    <path stroke-linecap="round" stroke-linejoin="round"
+      d="M12 3v1.5m0 15V21m9-9h-1.5M4.5 12H3m15.364 6.364l-1.06-1.06M6.696 6.696L5.636 5.636m12.728 0l-1.06 1.06M6.696 17.304l-1.06 1.06M12 8.25A3.75 3.75 0 1112 15a3.75 3.75 0 010-6.75z" />
+  </svg>
+
+  <!-- 🌙 Moon icon (Dark mode) -->
+  <svg xmlns="http://www.w3.org/2000/svg"
+    class="swap-off w-4 h-6 text-gray-800 white:text-gray-100 transition-all duration-300"
+    fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+    <path stroke-linecap="round" stroke-linejoin="round"
+      d="M21.752 15.002A9.718 9.718 0 0112 21.75a9.75 9.75 0 010-19.5c.324 0 .643.015.957.045a.75.75 0 01.436 1.321A7.5 7.5 0 0020.25 15a.75.75 0 011.502.002z" />
+  </svg>
+</label>    
+    <a class="btn font-bold">CV <i class="fa-solid fa-arrow-down"></i></a>
+  </div>
+</div>
