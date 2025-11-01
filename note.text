@@ -1,3 +1,20 @@
  <div class="inline-flex items-center bg-[#383246] px-4 py-2 rounded-full">
            <a class="text-xl text-gray-300 font-poppins" href="#">👋 Hello, I'm Md Emon </a>
           </div>
+          <div class="hero py-32"
+    style="background: url(./img/emon-full.png);">
+  <div class="hero-content">
+    <div class="">
+      <div class="inline-flex items-center bg-[#383246] px-4 py-2 rounded-full mb-10">
+           <a class="text-lg text-gray-300 font-poppins" href="#">👋 Hey, I’m MD Emon </a>
+      </div>
+      <h1 class="text-5xl font-bold font-poppins"  data-theme-dark="text-blue-600" data-theme-light="text-white">FRONTEND DEVELOPER AND <br> JAVASCRIPT EXPERT</h1>
+      <p class="py-6 font-Open-Sans text-base">
+         A Frontend Web Developer who turns ideas into interactive designs. <br>  
+         From clean code to cool animations, I make websites that stand out. 💻✨  
+
+      </p>
+      <button class="btn btn-primary">Get Started</button>
+    </div>
+  </div>
+</div>
